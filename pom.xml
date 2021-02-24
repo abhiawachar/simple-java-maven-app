@@ -34,4 +34,18 @@
       </plugin>
     </plugins>
   </build>
+    <distributionManagement>
+      <repository>
+        <id>deployment</id>
+        <name>internal release</name>
+        <url>http://heeng-aawachar.headquarters.healthedge.com:8081/repository/nexus-release//</url>
+      </repository>
+      
+      <snapshotRepository>
+        <id>deployment</id>
+        <name>internal snapshot release</name>
+        <url>http://heeng-aawachar.headquarters.healthedge.com:8081/repository/nexus-snap/</url>
+      </snapshotRepository> 
+    </distributionManagement>
+  
 </project>
